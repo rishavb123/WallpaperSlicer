@@ -14,7 +14,7 @@ def aspect_ratio(s):
     return [int(n) for n in s.split(':')]
 
 parser.add_argument('-a', '--align', type=align_type, default=1, help='Where to align the two images (along the y-axis)')
-parser.add_argument('-i', '--input-image', type=str, default='./sunset-over-water.jpg', help='The input image used to crop into seperate images')
+parser.add_argument('-i', '--input-image', type=str, default='./orig_images/abstract-sunset.jpg', help='The input image used to crop into seperate images')
 parser.add_argument('-o', '--output-folder', type=str, default='./output/{}', help='The folder where to output the cropped images')
 parser.add_argument('-ar1', '--aspect-ratio-1', type=aspect_ratio, default=(16, 9), help='The aspect ratio of the first screen')
 parser.add_argument('-ar2', '--aspect-ratio-2', type=aspect_ratio, default=(16, 9), help='The aspect ratio of the second screen')
