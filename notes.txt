@@ -1,0 +1,2 @@
+This is assuming the larger monitor is on the left
+expecting landscape orientation
